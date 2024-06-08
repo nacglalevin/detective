@@ -22,7 +22,7 @@ banner = '''
     | | '__/ _` |/ __| |/ /  / /\ \| __| __/ _` |/ __| |/ / _ \ '__|
     | | | | (_| | (__|   <  / ____ \ |_| || (_| | (__|   <  __/ |   
     |_|_|  \__,_|\___|_|\_\/_/    \_\__|\__\__,_|\___|_|\_\___|_|   
-                                   By Bywalks | V 1.0            
+                                   By Lalevin | V 1.0            
 '''
 
 #通过IP获取网站域名
@@ -117,8 +117,8 @@ def deal_url(url):
 def main():
     print(banner)
     print("[+]帮助小伙伴追踪Attacker的小工具")
-    print("[+]使用方法1：python3 TrackAttacker.py")
-    print("[+]使用方法2：python3 TrackAttacker.py all")
+    print("[+]使用方法1：python3 detective.py")
+    print("[+]使用方法2：python3 detective.py all")
     print("[+]如果你第一次使用该工具，请看README.md")
     print("=========================================")
     url = "urls.txt"
